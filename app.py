@@ -4,6 +4,7 @@ import chatbot
 
 def chatbot_response(query):
     # you can also use chatbot.getResponse(query) - this runs another model
+    # you need to run cdAI to download the models the first time you setup the project
     return cdAI.getResponse(query)
 
 
